@@ -1,0 +1,46 @@
+{
+  "basics": {
+    "name": "Neehal Tumma",
+    "image": "",
+    "email": "neehaltumma@college.harvard.edu",
+    "url": "https://ntumm120.github.io",
+    "summary": "CS/math joint concentrator at Harvard",
+    "profiles": [
+      {
+        "network": "Twitter",
+        "username": "AlbertEinstein",
+        "url": "https://twitter.com/AlbertEinstein"
+      }
+    ]
+  },
+  "work": [],
+  "volunteer": [],
+  "education": [
+    {
+      "institution": "Harvard University",
+      "area": "Computer Science and Mathematics",
+      "studyType": "A.B.",
+      "startDate": "2019",
+      "endDate": "Present",
+      "score": "",
+      "courses": []
+    },
+    {
+      "institution": "Harvard University",
+      "area": "Computer Science",
+      "studyType": "S.M.",
+      "startDate": "2023",
+      "endDate": "Present",
+      "score": "",
+      "courses": []
+    }
+  ],
+  "awards": [],
+  "certificates": [],
+  "publications": [],
+  "skills": [],
+  "languages": [],
+  "interests": [],
+  "references": [],
+  "projects": []
+}
