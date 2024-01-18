@@ -1,25 +1,49 @@
 ---
 ---
 
-@misc{tumma2023leveraging,
-      title={Leveraging Low-Rank and Sparse Recurrent Connectivity for Robust Closed-Loop Control}, 
-      author={Neehal Tumma and Mathias Lechner and Noel Loo and Ramin Hasani and Daniela Rus},
-      year={2023},
-      eprint={2310.03915},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG}
+@article{tumma2024leveraging,
+  abbr={ICLR},
+  award={Spotlight},
+  honor={Spotlight Presentation [Top 5\%]},
+  title={Leveraging Low-Rank and Sparse Recurrent Connectivity for Robust Closed-Loop Control},
+  author={Neehal Tumma and Mathias Lechner and Noel Loo and Ramin Hasani and Daniela Rus},
+  year = 	 {2024},
+  journal =    {International Conference on Learning Representations},
+  pdf = {https://arxiv.org/pdf/2310.03915.pdf},
+  abstract = {Developing autonomous agents that can interact with changing environments is an open challenge in machine learning. Robustness is particularly important in these settings as agents are often fit offline on expert demonstrations but deployed online where they must generalize to the closed feedback loop within the environment. In this work, we explore the application of recurrent neural networks to tasks of this nature and understand how a parameterization of their recurrent connectivity influences robustness in closed-loop settings. Specifically, we represent the recurrent connectivity as a function of rank and sparsity and show both theoretically and empirically that modulating these two variables has desirable effects on network dynamics. The proposed low-rank, sparse connectivity induces an interpretable prior on the network that proves to be most amenable for a class of models known as closed-form continuous-time neural networks (CfCs). We find that CfCs with fewer parameters can outperform their full-rank, fully-connected counterparts in the online setting under distribution shift. This yields memory-efficient and robust agents while opening a new perspective on how we can modulate network dynamics through connectivity.}
 }
 
-@inproceedings{chiu-etal-2022-joint,
+@article{tumma2023connectomics,
+      title={A connectomics-driven analysis reveals novel characterization of border regions in mouse visual cortex},
+author={Neehal Tumma and Linghao Kong and Shashata Sawmya and Nir Shavit},
+      year={2023},
+      abbr={Preprint},
+      journal = {Preprint}
+}
+
+@article{tumma2023leveraging,
+  abbr={NeurIPS CRL},
+  title={Leveraging Low-Rank and Sparse Recurrent Connectivity for Robust Closed-Loop Control},
+  author={Neehal Tumma and Mathias Lechner and Noel Loo and Ramin Hasani and Daniela Rus},
+  year =  {2023},
+  journal =  {NeurIPS Workshop on Causal Representation Learning (non-archival)},
+}
+
+
+@article{chiu-etal-2022-joint,
     title = {A Joint Learning Approach for Semi-supervised Neural Topic Modeling},    author = {Chiu*, Jeffrey  and
       Mittal*, Rajat  and
       Tumma*, Neehal  and
       Sharma, Abhishek  and
       Doshi-Velez, Finale},
     booktitle = {Proceedings of the Sixth Workshop on Structured Prediction for NLP},
+    abbr = {ACL SPNLP},
+    journal = {In Proceedings of the Sixth Workshop on Structured Prediction for NLP}
+  ,award={Oral},
+  honor={Oral Presentation},
     year = {2022},
     publisher = {Association for Computational Linguistics},
-    pdf = {https://aclanthology.org/2022.spnlp-1.5},
+    pdf = {https://aclanthology.org/2022.spnlp-1.5.pdf},
     pages = {40--51},
     abstract = {Topic models are some of the most popular ways to represent textual data in an interpret-able manner. Recently, advances in deep generative models, specifically auto-encoding variational Bayes (AEVB), have led to the introduction of unsupervised neural topic models, which leverage deep generative models as opposed to traditional statistics-based topic models. We extend upon these neural topic models by introducing the Label-Indexed Neural Topic Model (LI-NTM), which is, to the extent of our knowledge, the first effective upstream semi-supervised neural topic model. We find that LI-NTM outperforms existing neural topic models in document reconstruction benchmarks, with the most notable results in low labeled data regimes and for data-sets with informative labels; furthermore, our jointly learned classifier outperforms baseline classifiers in ablation studies.}
 }
