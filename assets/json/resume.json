@@ -1,18 +1,10 @@
 {
   "basics": {
-    "name": "Jiaqi Han",
-    "label": "CS PhD",
+    "name": "Neehal Tumma",
     "image": "",
-    "email": "jiaqihan@stanford.edu",
-    "url": "https://hanjq17.github.io",
-    "summary": "PhD student in Stanford Computer Science",
-    "location": {
-      "address": "Stanford University",
-      "postalCode": "CA 94305",
-      "city": "Stanford",
-      "countryCode": "US",
-      "region": "California"
-    },
+    "email": "neehaltumma@college.harvard.edu",
+    "url": "https://ntumm120.github.io",
+    "summary": "CS/math joint concentrator at Harvard",
     "profiles": [
       {
         "network": "Twitter",
@@ -25,20 +17,20 @@
   "volunteer": [],
   "education": [
     {
-      "institution": "Tsinghua University",
-      "area": "Computer Science",
-      "studyType": "B.Eng",
-      "startDate": "2017",
-      "endDate": "2021",
+      "institution": "Harvard University",
+      "area": "Computer Science and Mathematics",
+      "studyType": "A.B.",
+      "startDate": "2019",
+      "endDate": "Present",
       "score": "",
       "courses": []
     },
     {
-      "institution": "Stanford University",
+      "institution": "Harvard University",
       "area": "Computer Science",
-      "studyType": "PhD",
+      "studyType": "S.M.",
       "startDate": "2023",
-      "endDate": "Current",
+      "endDate": "Present",
       "score": "",
       "courses": []
     }
